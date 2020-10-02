@@ -1,0 +1,71 @@
+body {
+    margin: auto 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: blanchedalmond;
+}
+
+.Profile {
+    margin: auto 0;
+    background-color: blanchedalmond;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+
+.heading {
+    display: grid;
+    justify-self: center;
+    justify-items: center;
+    color: rgb(101, 117, 138);
+    /* border: 1px solid black; */
+
+}
+
+.heading > h1 {
+    text-shadow: 0 0 3px rgb(156, 192, 238);
+}
+
+.info {
+    display: inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    padding: 5em;
+    /* border: 1px solid black; */
+    justify-items: center;
+    margin: 0 10rem;
+    border-top: 3px solid gainsboro;
+    
+}
+
+.col1 {
+    justify-content: center;
+    justify-self: right;
+    padding: 2em;
+    /* border: 1px solid black */
+}
+
+.col2 {
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+
+    background-image: url(images/SlackProfile.png);
+    background-size: cover;
+    background-position: right 30% top 0%;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+}
+
+.col3 {
+    justify-content: center;
+    justify-self: left;
+    padding: 2em;
+    /* border: 1px solid black */
+}
+
+.col2 > img {
+    object-fit: cover;
+    background-position: right 30% top 0%;
+    border-radius: 50%;
+
+}
